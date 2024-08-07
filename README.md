@@ -4,9 +4,9 @@ Simple GUI which allows you to graphically install .rpm packages
 
 # Features
 
-1. Aplication supporting single .rpm file installation and also multiple file installation.
-* In single file, aplication print few standard information about package
-* In multi file, aplication print only package names, version and all what comes from file name.
+1. Application supporting single .rpm file installation and also multiple file installation.
+* In single file, application print few standard information about package
+* In multi file, application print only package names, version and all what comes from file name.
 
 2. Application allow to use few backend:
 * dnf (default one)
@@ -15,12 +15,12 @@ Simple GUI which allows you to graphically install .rpm packages
 
 You can switch beetwen by editin config file located in /home/user-name/.config/rpm-install.config (if this file not exist, create it)
 
-# Depencency
+# Dependency
 Require runtime dependency as: gtk4.0 lib64adwaita1_0 lib64adwaita-gir1 python-gobject3
 
 # Usage
 
-Add aplication as default action to run when .rpm file is double clicked
+Add application as default action to run when .rpm file is double clicked
 
 Alternatively for testing, run python shell and invoke applications with the package being installed as:
 
