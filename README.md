@@ -15,6 +15,9 @@ Simple GUI which allows you to graphically install .rpm packages
 
 You can switch beetwen by editin config file located in /home/user-name/.config/rpm-install.config (if this file not exist, create it)
 
+# Depencency
+Require runtime dependency as: gtk4.0 lib64adwaita1_0 lib64adwaita-gir1 python-gobject3
+
 # Usage
 
 Add aplication as default action to run when .rpm file is double clicked
